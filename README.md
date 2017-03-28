@@ -1,6 +1,5 @@
 # Neural Network in Python
-* 1 hidden layer (and 2 hidden layers) NN in Python 2
-* Including a trained model of handwritten digit database MNIST
+* 1 hidden layer NN in Python
 
 ## Dependencies
 Python 2 or 3, NumPy, scikit-learn, matplotlib  
@@ -13,7 +12,7 @@ train the model:
 ➜  python train.py
 ```
 
-classify some digits with trained model
+classify digits with the trained model
 
 ```shellsession
 ➜  python predict.py
@@ -25,6 +24,4 @@ classify some digits with trained model
 
 * Loss, accuracy and training iteration  
 ![Log of training](/examples/NNH1_train_log.png)  
-
-Reaches 98% accuracy after 60000 iterations (may take around 10 min.)
 
