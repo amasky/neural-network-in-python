@@ -15,7 +15,7 @@ train the model:
 classify digits with the trained model
 
 ```shellsession
-➜  python predict.py
+➜  python infer.py
 ```
 
 ## Examples
